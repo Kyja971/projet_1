@@ -1,0 +1,211 @@
+.bloc_principale{
+    text-transform: uppercase;
+    display:flex;
+    flex-direction: row;
+    border:2px black solid;
+    height: 500px;
+    width: 700px;
+    margin:auto;
+}
+
+.bloc1{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+}
+.name_player{
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    top:25%;
+    font-size: 25px;
+}
+.point_rouge{
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 7, 7);
+    left: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    
+}
+.compteur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    width: 60px;
+    height: 40px;
+    color: red;
+    font-size: 40px;
+    top:30%;
+}
+.score_player{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(235, 77, 76);
+    top:50%;  
+}
+.score_total{
+    display:flex;
+    position: relative;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+    font-size: 20px;
+    color: white;
+}
+.etat{
+    display:flex;
+    position: relative;
+    align-items: center;
+    justify-content: center; 
+    font-size: 10px;
+    margin-top: 5px;
+}
+.bloc2{
+    height: 100%;
+    width: 30%;
+    margin-left: -15%;
+    margin-right: -15%;
+    z-index: 2;
+    flex-direction: column;
+}
+.new_game{
+    display: flex;
+    position:relative;
+    top:5%;
+    align-items: center;
+    justify-content: center;
+
+}
+.lancement_de{
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 15px -2px black;
+    top: 170px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+}
+.relancer{
+    display: flex;
+    position:relative;
+    top:47%;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.empiler_points{
+    display: flex;
+    position:relative;
+    top:46%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bloc3{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+}
+i{
+    margin: 5px;
+}
+.number1{
+    display: flex;
+    position: relative;
+    top:12px;
+    left:10px;
+    width: 10px;
+    /*opacity: 0;*/
+    height: 10px;
+    border-radius: 50%;
+    
+    background-color: red;
+}
+.number2{
+    display: flex;
+    position: relative;
+    top:30px;
+    width: 10px;
+    height: 10px;
+    /*opacity: 0;*/
+    border-radius: 50%;
+    background-color: red;
+}
+.number3{
+    display: flex;
+    position: relative;
+    top:50px;
+    right:10px;
+    width: 10px;
+    height: 10px;
+    /*opacity: 0;*/
+    border-radius: 50%;
+    background-color: red;
+}
+.number4{
+    display: flex;
+    position: relative;
+    top:30px;
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    border-radius: 50%;
+    background-color: red;
+}
+.number5{
+    display: flex;
+    position: relative;
+    left: 10px;
+    top:12px;
+    width: 10px;
+    height: 10px;
+    /*opacity: 0;*/
+    border-radius: 50%;
+    background-color: red;
+}
+.number6{
+    display: flex;
+    position: relative;
+    top:30px;
+    width: 10px;
+    height: 10px;
+    /*opacity: 0;*/
+    border-radius: 50%;
+    background-color: red;
+}
+.number7{
+    display: flex;
+    position: relative;
+    top:50px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    /*opacity: 0;*/
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+
